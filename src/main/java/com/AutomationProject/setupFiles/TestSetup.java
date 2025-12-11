@@ -59,8 +59,9 @@ public class TestSetup {
 	public void afterClass()
 	{
 		System.out.println("After class");
+        System.out.println("After class1");
 
-	}
+    }
 	@AfterSuite
 	public void cleanUp()
 	{
